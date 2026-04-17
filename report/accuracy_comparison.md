@@ -12,18 +12,18 @@ Both systems were tested on the same validation set
 
 | Metric    | Decision Tree | Expert System |
 |-----------|:------------:|:-------------:|
-| Accuracy  | **98.05%**   | 49.76%        |
-| Precision | **100.00%**  | 0.00%         |
-| Recall    | **96.12%**   | 0.00%         |
-| F1 Score  | **98.02%**   | 0.00%         |
+| Accuracy  | **85.25%**   | 49.76%        |
+| Precision | **80.00%**  | 0.00%         |
+| Recall    | **93.33%**   | 0.00%         |
+| F1 Score  | **86.15%**   | 0.00%         |
 ---
 
 ## 3. Analysis
 
  Decision Tree
-- Achieved 98.05% accuracy on the validation set.
-- 100% precision means every patient it flagged as high-risk truly had heart disease.
-- 96.12% recall means it correctly identified the vast majority of actual disease cases.
+- Achieved 85.25% accuracy on the validation set.
+- 80.00% precision means every patient it flagged as high-risk truly had heart disease.
+- 93.33% recall means it correctly identified the vast majority of actual disease cases.
 - The model learned complex patterns automatically from 300+ labeled patient records.
 
  Expert System
@@ -48,7 +48,7 @@ which was mapped to class `0`, so it never predicted any positive (High Risk) ca
 
 | Criterion                 |     Decision Tree      |        Expert System        |
 |---------------------------|:----------------------:|:---------------------------:|
-| **Accuracy**              |    Very High (98%)     |          Low (50%)          |
+| **Accuracy**              |    Very High (85%)     |          Low (50%)          |
 | **Transparency**          |   Hard to interpret    |    Fully readable rules     |
 | **Adaptability**          |    Learns from data    |     Fixed manual rules      |
 | **Trust in clinical use** |   Needs explanation    | Easy to justify to doctors  |

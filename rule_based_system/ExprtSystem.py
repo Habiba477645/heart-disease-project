@@ -1,5 +1,4 @@
-# Evaluates the rule-based expert system on the validation set
-# and compares its predictions against the ground truth labels.
+
 import collections
 import collections.abc
 
@@ -97,4 +96,4 @@ def evaluate_expert_system(data_path):
 if __name__ == "__main__":
     BASE      = os.path.dirname(os.path.abspath(__file__))
     data_path = os.path.join(BASE, '..', 'data', 'cleaned_data.csv')
-    evaluate_expert_system(data_path)
+    evaluate_expert_system(data_path) 

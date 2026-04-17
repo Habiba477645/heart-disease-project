@@ -69,10 +69,10 @@ streamlit run ui/app.py
 
 | Metric    | Decision Tree | Expert System |
 |-----------|:------------:|:-------------:|
-| Accuracy  | 98.05%       | 49.76%        |
-| Precision | 100.00%      | 0.00%         |
-| Recall    | 96.12%       | 0.00%         |
-| F1 Score  | 98.02%       | 0.00%         |
+| Accuracy  | 85.25%       | 49.76%        |
+| Precision | 80.00%      | 0.00%         |
+| Recall    | 93.33%       | 0.00%         |
+| F1 Score  | 86.15%       | 0.00%         |
 
 ---
 

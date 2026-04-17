@@ -8,11 +8,11 @@ import pandas as pd
 # Load data
 df = pd.read_csv('C:/Users/ASUS/Downloads/habibas/IpProject2/data/heart.csv')
 
-# Missing values
 df.fillna({'restecg': df['restecg'].mode()[0]}, inplace=True)
 df.fillna({'oldpeak': df['oldpeak'].mean()}, inplace=True)
 
 df.drop_duplicates(inplace=True)
+
 
 X = df.drop('target', axis=1)
 y = df['target']
